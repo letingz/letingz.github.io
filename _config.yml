@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Leting Zhang"
 title_separator          : "-"
 name                     : &name "Leting Zhang"
-description              : &description "personal description"
+description              : &description "Insturmental Variables"
 url                      : https://letingz.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "letingz.github.io"
@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Leting Zhang"
-  avatar           : "profile.png"
+  avatar           : "/assets/images/avatar.jpg"
   bio              : "PhD Candidate, Temple University"
   location         : "Philadelphia, U.S."
   employer         :
   pubmed           : ""
-  googlescholar    : ""
+  googlescholar    : "https://scholar.google.com/citations?user=p8LoUmQAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -100,16 +100,16 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  #impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  #orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  #stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "letingz"
   vine             :
   weibo            :
   xing             :
