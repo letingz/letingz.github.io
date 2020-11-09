@@ -14,7 +14,7 @@ description              : &description "Insturmental Variables"
 url                      : https://letingz.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "letingz.github.io"
-teaser                   : "/images/logo-piano.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "logo-piano.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Leting Zhang"
-  avatar           : "/images/avatar.jpg"
+  avatar           : "avatar.jpg"
   bio              : "PhD Candidate, Temple University"
   location         : "Philadelphia, U.S."
   employer         :
