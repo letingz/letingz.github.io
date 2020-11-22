@@ -1,7 +1,9 @@
 ---
 layout: home
+title: "Curriculum Vitae"
 author_profile: true
 permalink: /cv/
-title: "Curriculum Vitae"
+
 ---
-<iframe src="/files/CV_LetingZhang202011.pdf" width="100%" height="100%"> This browser does not support PDFs. Please download the PDF to view it: Download PDF </iframe>
+[You can see my CV here](/files/CV_LetingZhang202011.pdf)
+
