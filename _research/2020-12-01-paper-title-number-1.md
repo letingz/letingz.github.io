@@ -4,7 +4,7 @@ collection: research
 permalink: /research/2020-12-01-jmp
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2020-12
-
+paperurl: 'http://academicpages.github.io/files/paper2.pdf'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
