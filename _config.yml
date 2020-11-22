@@ -181,12 +181,13 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
- # portfolio:
- #  output: true
- #  permalink: /:collection/:path/
+  miscellaneous:
+   output: true
+   permalink: /:collection/:path/
   talks:
-    output: false
+    output: ture
     permalink: /:collection/:path/
+   
 
 
 # Defaults
