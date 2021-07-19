@@ -181,6 +181,9 @@ collections:
   research:
     output: ture
     permalink: /:collection/:path/
+  resources:
+    output: ture
+    permalink: /:collection/:path/
   miscellaneous:
     output: true
     permalink: /:collection/:path/
@@ -272,6 +275,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-sitemap
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
