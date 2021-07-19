@@ -7,5 +7,5 @@ permalink: /cv/
 ---
 {% include base_path %}
 
-[You can see my CV here](/files/CV_LetingZhang202011.pdf)
+[You can see my CV here](/files/cv_letingz.pdf)
 

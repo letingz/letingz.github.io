@@ -1,9 +1,8 @@
 ---
-title: "Job Market Paper"
+title: "Does Sharing Make My Data More Insecure? An Eempirical Study on Health Information Exchange and Data Breaches"
 collection: research
-permalink: /research/2020-10-01-jmp
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2020-10-01
+permalink: /research/jmps
+excerpt:  "<br/><img src='/images/exchange_networks.png'>"
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
 ---
 This paper is about the number 1. The number 2 is left for future work.
