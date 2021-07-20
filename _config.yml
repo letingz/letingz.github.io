@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Leting Zhang"
 title_separator          : "-"
 name                     : &name "Leting Zhang"
-description              : &description "Instrumental Variables"
+description              : &description "Leting Zhang's personal website"
 url                      : https://letingz.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "letingz.github.io"
