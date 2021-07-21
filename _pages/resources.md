@@ -1,9 +1,8 @@
 ---
 layout: archive
-title:"Resources"
+title: "Resources"
 author_profile: true
-permalink:/resources/
-
+permalink: /resources/
 ---
 {% include base_path %}
 

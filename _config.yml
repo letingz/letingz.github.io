@@ -17,7 +17,7 @@ repository               : "letingz.github.io"
 teaser                   : "logo-piano.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : false
+future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=p8LoUmQAAAAJ&hl=en"
-  email            :
+  email            : "leting.zhang@temple.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -179,16 +179,16 @@ collections:
     output: true
     permalink: /:collection/:path/
   research:
-    output: ture
+    output: true
     permalink: /:collection/:path/
   resources:
-    output: ture
+    output: true
     permalink: /:collection/:path/
   miscellaneous:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: ture
+    output: true
     permalink: /:collection/:path/
    
 
@@ -204,7 +204,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: false
+      share: true
       related: true
   # _pages
   - scope:
@@ -222,21 +222,22 @@ defaults:
       author_profile: true
       share: false
       comments: false
-  # _publications
+  # _research
   - scope:
       path: ""
       type: research
     values:
       layout: single
       author_profile: true
- # _resources
+      share: false
+      comments: false
+  # _resources
   - scope:
       path: ""
       type: resources
     values:
       layout: archive
       author_profile: true
-
   # _portfolio
   - scope:
       path: ""
@@ -253,8 +254,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-
-# _miscellaneous
+  # _miscellaneous
   - scope:
       path: ""
       type: miscellaneous
@@ -289,6 +289,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-sitemap
 
 
 # Archives

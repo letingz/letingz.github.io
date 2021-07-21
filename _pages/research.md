@@ -1,17 +1,21 @@
 ---
 
+layout: archive
 title: "Research"
-author_profile: true
 permalink: /research/
+author_profile: true
 ---
 
-# Research 1
+Down below are links for selected projects:
 
 
 
-# Research 2
+My research agenda:
 
 
 
-# Research 3
+{% include base_path %}
 
+{% for post in site.research %}
+  {% include archive-single.html %}
+{% endfor %}

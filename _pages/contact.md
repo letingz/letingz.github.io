@@ -3,7 +3,7 @@ permalink: /contact/
 title: "Contact"
 excerpt: "My research"
 author_profile: true
-layout:page
+layout: page
 ---
 
 Some contents

@@ -1,7 +1,7 @@
 ---
-title: "Goldberg Variations 1995 & 1981"
+title: "GAGA"
 layout: single
-collection: miscellaneous
+collection: portfolio
 permalink: /miscellaneous/
 excerpt: "<br/><img src='/images/Gould.jpg'>"
 ---

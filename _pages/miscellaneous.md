@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Miscellaneous"
-layout: archive 
+layout: single 
 author_profile: true
 permalink: /miscellaneous/
 ---
