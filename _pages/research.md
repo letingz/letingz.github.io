@@ -6,13 +6,11 @@ permalink: /research/
 author_profile: true
 ---
 
+My current studies focus on organizations' strategic responses to risks, in particular, cyber risks.
+
+
+
 Down below are links for selected projects:
-
-
-
-My research agenda:
-
-
 
 {% include base_path %}
 
