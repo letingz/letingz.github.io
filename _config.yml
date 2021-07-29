@@ -237,7 +237,7 @@ defaults:
       type: resources
     values:
       layout: archive
-      author_profile: true
+      author_profile: false
   # _portfolio
   - scope:
       path: ""
