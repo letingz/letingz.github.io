@@ -7,10 +7,8 @@ This paper examines the information security implications of participating in in
 
 To study the impact of joining an HIE on a hospital’s data breach risk, we use a six-year panel data on hospital characteristics, HIE participation status, and data breach incidents from multiple sources.
 
- The results show that the likelihood that a hospital experiences data breaches decreases by 1.7 percentage points (34% reduction) after joining an HIE. 
+The results show that the likelihood that a hospital experiences data breaches decreases by 1.7 percentage points (34% reduction) after joining an HIE. 
 
-Next, we propose two main mechanisms through which HIE’s governance works: investment in IT security (*Node protection)* and standards to mitigate shared risks in data accesses and transition (*Link protection)*. 
-
-We find that the magnitude of breach risk reduction is larger on an HIE member hospital with a higher ex-ante IT security investment level. Also, the likelihood of data breaches caused by insiders or illegal access to IT systems significantly decreases after a hospital joins an HIE (whereas there is no significant impact on breaches caused by outsiders or physical breaches). 
+Furthermore, we find that the magnitude of breach risk reduction is larger on an HIE member hospital with a higher ex-ante IT security investment level. Also, the likelihood of data breaches caused by insiders or illegal access to IT systems significantly decreases after a hospital joins an HIE (whereas there is no significant impact on breaches caused by outsiders or physical breaches). 
 
 This paper contributes to the information systems literature by studying the overall impact of IOS adoption on organizational data breaches. It also sheds light on the mechanisms of data security governance in the IOS context.

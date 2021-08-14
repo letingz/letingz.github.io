@@ -8,10 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Hello, there! My name is Leting Zhang. I am a PhD candidate in Management Information Systems, Fox School of Business, Temple University. My research interests focus on the following areas:
+Hello, there! My name is Leting Zhang. I am a PhD candidate in Management Information Systems, Fox School of Business, Temple University. My primary research interests focus on the following areas:
 
-- Cybersecurity
+- Information Security
 - Health IT
 - Digitalized Innovation
-
-I care about diversity and equity.
