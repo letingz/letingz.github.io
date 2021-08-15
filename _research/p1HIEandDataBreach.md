@@ -12,3 +12,6 @@ The results show that the likelihood that a hospital experiences data breaches d
 Furthermore, we find that the magnitude of breach risk reduction is larger on an HIE member hospital with a higher ex-ante IT security investment level. Also, the likelihood of data breaches caused by insiders or illegal access to IT systems significantly decreases after a hospital joins an HIE (whereas there is no significant impact on breaches caused by outsiders or physical breaches). 
 
 This paper contributes to the information systems literature by studying the overall impact of IOS adoption on organizational data breaches. It also sheds light on the mechanisms of data security governance in the IOS context.
+
+
+
