@@ -1,6 +1,6 @@
 ---
 title: "The Future of Work in the US: An Empirical Study of the Effect of Access to IT"
-excerpt: "<br/><img src='/images/ITAccess.png'>"
+excerpt: "<br/><img src='/images/itaccess_syn.png'>"
 
 ---
 

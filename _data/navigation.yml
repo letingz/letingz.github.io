@@ -12,11 +12,11 @@ main:
   #  url: /teaching/    
     
 
-  - title: "Resources"
+  - title: "Public Goods"
     url: /resources/
     
 
     
-  - title: "Miscellaneous"
-    url: /miscellaneous/
+ # - title: "Miscellaneous"
+ #  url: /miscellaneous/
         
