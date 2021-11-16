@@ -1,5 +1,5 @@
 ---
-title: "The Future of Work in the US: An Empirical Study of the Effect of Access to IT"
+title: "Does Access to Information Technology Resources Reduce Rise in Regional Unemployment Amidst Global Disasters? Insights from COVID-19 in the United States"
 excerpt: "<br/><img src='/images/itaccess_syn.png'>"
 
 ---

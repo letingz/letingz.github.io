@@ -8,7 +8,7 @@ author_profile: true
 
 
 
-Down below are links for selected projects:
+Down below are introductions of selected projects:
 
 {% include base_path %}
 

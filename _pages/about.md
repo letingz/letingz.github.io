@@ -49,7 +49,7 @@ Hello, there! My name is Leting Zhang. I am a 5th-year PhD candidate in Manageme
     security field.  
 
 - Antecedents of risks:
-  -  **Does Sharing Make My Data More Insecure? An Empirical Study on Health*
+  -  *Does Sharing Make My Data More Insecure? An Empirical Study on Health*
     Information Exchange and Data Breaches*  (Major Revision at *MISQ*)
 
 - Optimal investment:
@@ -61,3 +61,4 @@ Hello, there! My name is Leting Zhang. I am a 5th-year PhD candidate in Manageme
 
 
 ​		
+
