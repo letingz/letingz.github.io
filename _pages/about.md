@@ -49,11 +49,11 @@ Hello, there! My name is Leting Zhang. I am a 5th-year PhD candidate in Manageme
     security field.  
 
 - Antecedents of risks:
-  -  *Does Sharing Make My Data More Insecure? An Empirical Study on Health*
-    Information Exchange and Data Breaches*  (Major Revision at *MISQ*)
+  -  *Does Sharing Make My Data More Insecure? An Empirical Study on Health Information Exchange and Data Breaches *
+     (Major Revision from *MISQ*)
 
 - Optimal investment:
-  -   *How to Make My Bug Bounty Cost-effective? A Game-theoretical Model* (Under Review at *Information Systems Research*)
+  -   *How to Make My Bug Bounty Cost-effective? A Game-theoretical Model* (Major Revision from *Information Systems Research*)
 
 - Market challenge:
   -  *Peer Data Breaches and Cyber Risk Disclosure Quality: Evidence from US Public
