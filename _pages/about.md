@@ -10,7 +10,8 @@ redirect_from:
 
 **A Short Bio:**
 
-Hello, there! My name is Leting Zhang. I am a 5th-year PhD candidate in Management Information Systems, Fox School of Business, Temple University.
+Hello, there! My name is Leting Zhang. I am an Assitant Professor of Management Information Systems at Lerner College of Business & Economics, University of Delaware.
+I received my Ph.D. degreee in MIS from Fox School of Business, Temple University.
 
 
 
