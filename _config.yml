@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Leting Zhang (张乐婷)"
   avatar           : "avatar.jpg"
-  bio              : "Assitant Professor, University of Delaware"
-  location         : "Philadelphia, U.S."
+  bio              : "Assitant Professor, \\ University of Delaware"
+  location         : "Newark, DE"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=p8LoUmQAAAAJ&hl=en"
-  email            : "leting.zhang@temple.edu"
+  email            : "letingz@udel.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
