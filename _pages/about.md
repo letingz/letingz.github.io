@@ -11,7 +11,7 @@ redirect_from:
 **A Short Bio:**
 
 Hello, there! My name is Leting Zhang. I am an Assitant Professor of Management Information Systems at Lerner College of Business & Economics, University of Delaware.
-I received my Ph.D. degreee in MIS from Fox School of Business, Temple University.
+I received my Ph.D. degree in MIS from Fox School of Business, Temple University.
 
 
 
