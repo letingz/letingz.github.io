@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Leting Zhang"
 title_separator          : "-"
-name                     : &name "Leting Zhang - PhD Candidate"
+name                     : &name "Leting Zhang"
 description              : &description "Leting Zhang's personal website"
 url                      : https://letingz.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Leting Zhang (张乐婷)"
   avatar           : "avatar.jpg"
-  bio              : "PhD Candidate, Temple University"
+  bio              : "Assitant Professor, University of Delaware"
   location         : "Philadelphia, U.S."
   employer         :
   pubmed           : 
