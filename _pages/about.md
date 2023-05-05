@@ -17,7 +17,7 @@ I received my Ph.D. degree in MIS from Fox School of Business, Temple University
 
 **Research Topics:**
 
-- Information Security
+- Information Technology Risks
 
 - Health Information Technology
 
@@ -37,29 +37,4 @@ I received my Ph.D. degree in MIS from Fox School of Business, Temple University
 
   
 
-**My Dissertation:**
-
-- Title: *Three Essays on The Economics of Information Security*
-- Motivation: 
-  - In recent years, information security has been gaining increasing public attention and has
-    become a high priority for organizations across various industries. However, cyber-risks continue
-    to escalate as digital transformations are growing rapidly, and new areas of cyber-vulnerability are
-    exposed and exploited. Thus, a critical question for managers, stakeholders, and policymakers
-    is: How to strategically ensure the security of digital assets? Guided by the core question, my
-    dissertation explores and advances three critical themes in the economics of the information
-    security field.  
-
-- Antecedents of risks:
-  -  *Does Sharing Make My Data More Insecure? An Empirical Study on Health Information Exchange and Data Breaches *
-     (Major Revision from *MISQ*)
-
-- Optimal investment:
-  -   *How to Make My Bug Bounty Cost-effective? A Game-theoretical Model* (Major Revision from *Information Systems Research*)
-
-- Market challenge:
-  -  *Peer Data Breaches and Cyber Risk Disclosure Quality: Evidence from US Public
-    Firms* (Work in Progress)
-
-
-​		
 
