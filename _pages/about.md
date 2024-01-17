@@ -25,16 +25,6 @@ I received my Ph.D. degree in MIS from Fox School of Business, Temple University
 
 - Digital Innovation
 
-  
 
-**Research Methodologies:**
-
-- Econometrics (with causal inference)
-
-- Game-theoretical model
-
-- Text mining
-
-  
 
 
