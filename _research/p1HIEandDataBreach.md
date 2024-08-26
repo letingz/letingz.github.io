@@ -1,6 +1,6 @@
 ---
 title: "Does Sharing Make My Data More Insecure? An Empirical Study on Health Information Exchange and Data Breaches"
-excerpt: "<br/><img src='/images/trendOfBreachAndHIE1.png'>"
+excerpt: "<br/><img src=''>"
 ---
 
 This paper examines the information security implications of participating in inter-organizational systems (IOS) in the context of the healthcare industry. Public concern regarding data breach risks has increased as more hospitals share their data through electronic Health Information Exchange (HIE) systems, a type of IOS. 

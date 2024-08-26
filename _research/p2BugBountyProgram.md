@@ -1,7 +1,7 @@
 ---
 title: "How to Make My Bug Bounty Cost-effective? A Game-theoretical Model"
 excerpt: 'This paper is about the interactions between organizations and a crowd of security researchers in bug bounty programs.'
-excerpt: "<br/><img src='/images/BBP.PNG'>"
+excerpt: "<br/><img src=''>"
 
 ---
 
