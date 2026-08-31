@@ -10,6 +10,8 @@ I study how organizations manage the risks and returns of information technology
 information security, health information systems, and the effects of information
 technology on labor markets.
 
+[View my publications on Google Scholar](https://scholar.google.com/citations?hl=en&user=dUXnG4wAAAAJ&inst=3607309548842157151)
+
 ### Publications
 
 Leting Zhang, Sunil Wattal, and Min-Seok Pang. (2024). "Does Sharing Make My Data
