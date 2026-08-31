@@ -1,3 +1,5 @@
+.DS_Store
 _site/
-
-images/archive/trendOfBreachAndHIE1.png
+.jekyll-cache/
+.jekyll-metadata
+vendor/
