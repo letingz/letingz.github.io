@@ -6,15 +6,35 @@ permalink: /research/
 
 ## Research
 
-Longer write-ups of selected projects.
+I study how organizations manage the risks and returns of information technology —
+information security, health information systems, and the effects of information
+technology on labor markets.
+
+### Publications
+
+Leting Zhang, Sunil Wattal, and Min-Seok Pang. "Does Sharing Make My Data More
+Insecure? An Empirical Study on Health Information Exchange and Data Breaches."
+*Forthcoming, MIS Quarterly.*
+
+Leting Zhang, Emre Demirezen, and Subodha Kumar. "How to Make My Bug Bounty
+Cost-effective? A Game-theoretical Model." *Accepted, Information Systems Research.*
+
+### Working Papers
+
+Leting Zhang, Taha Havakhor, and Sunil Wattal. "Peer Data Breaches and Cyber Risk
+Disclosure Quality: Evidence from US Public Firms." *Under review.*
+
+Leting Zhang, Taha Havakhor, and Rajiv Sabherwal. "Does Access to Information
+Technology Resources Reduce Rise in Regional Unemployment Amidst Global Disasters?
+Insights from COVID-19 in the United States." *In preparation for submission.*
+
+### Selected Projects
 
 <div class="project" markdown="1">
 
-### Does Sharing Make My Data More Insecure? An Empirical Study on Health Information Exchange and Data Breaches
+#### Health Information Exchange and Data Breaches
 
 <div class="figure"><img src="/images/trendOfBreachAndHIE1.png" alt="Trend of data breaches and health information exchange participation"></div>
-
-With Sunil Wattal and Min-Seok Pang.
 
 This paper examines the information security implications of participating in
 inter-organizational systems in the context of the healthcare industry. Public
@@ -36,11 +56,9 @@ no significant impact on breaches caused by outsiders or on physical breaches.
 
 <div class="project" markdown="1">
 
-### How to Make My Bug Bounty Cost-effective? A Game-theoretical Model
+#### Bug Bounty Program Design
 
 <div class="figure"><img src="/images/BBP.PNG" alt="Bug bounty program model"></div>
-
-With Emre Demirezen and Subodha Kumar.
 
 To mitigate the threats from malicious exploitation of vulnerabilities, an
 increasing number of organizations across different industries have started
@@ -60,11 +78,9 @@ among those researchers, and their number.
 
 <div class="project" markdown="1">
 
-### Does Access to Information Technology Resources Reduce Rise in Regional Unemployment Amidst Global Disasters? Insights from COVID-19 in the United States
+#### IT Resources and Regional Unemployment
 
 <div class="figure"><img src="/images/itaccess_syn.png" alt="IT access and regional unemployment"></div>
-
-With Taha Havakhor and Rajiv Sabherwal.
 
 One major change in working conditions after the pandemic is the increased
 prevalence of transformations geared towards facilitating working from home. Firms
