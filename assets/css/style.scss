@@ -1,0 +1,116 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// ---------------------------------------------------------------------------
+// Cream patch over pages-themes/minimal.
+// Ground and sidebar panel are paulgp.com's; everything else is stock Minimal.
+// The grey shifts are not decoration: stock cool greys on a warm ground read
+// as a mistake rather than a choice.
+// ---------------------------------------------------------------------------
+
+$ground:      #faf8f5;
+$body-text:   #6f6a63;
+$rule:        #e3ded6;
+$panel:       #f5f2ed;
+$small-text:  #7b756c;
+$heading:     #222222;
+$link:        #267cb9;
+
+body {
+  background-color: $ground;
+  color: $body-text;
+}
+
+small { color: $small-text; }
+hr { background: $rule; }
+
+// --- sidebar as a paulgp-style box -----------------------------------------
+
+header {
+  box-sizing: border-box;
+  background: $panel;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+header h1 a { color: $heading; }
+header h1 a:hover { color: $heading; font-weight: inherit; }
+
+header > p {
+  font-size: 13px;
+  line-height: 1.55;
+  margin-bottom: 18px;
+}
+
+.portrait {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 18px;
+}
+
+.sidenav {
+  border-top: 1px solid $rule;
+  padding-top: 10px;
+  margin-bottom: 14px;
+}
+
+.sidenav a {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $small-text;
+  padding: 9px 0;
+  line-height: 1.5;
+}
+
+// Minimal bolds links on hover, which makes nav items jitter. Suppress it here.
+.sidenav a:hover {
+  color: $heading;
+  font-weight: 400;
+}
+
+.sidenav a[aria-current="page"] { color: $link; }
+
+// --- content ---------------------------------------------------------------
+
+.figure {
+  background: $panel;
+  border: 1px solid $rule;
+  border-radius: 4px;
+  padding: 12px;
+  margin: 0 0 12px;
+}
+
+.figure img { display: block; width: 100%; }
+
+.project { margin-bottom: 32px; }
+
+footer {
+  border-top: 1px solid $rule;
+  padding-top: 16px;
+}
+
+// --- narrow screens --------------------------------------------------------
+// Minimal unfloats its columns below 960px; keep the box readable there.
+
+@media print, screen and (max-width: 960px) {
+  header {
+    position: static;
+    float: none;
+    width: auto;
+    margin-bottom: 24px;
+  }
+  .portrait { max-width: 150px; }
+}

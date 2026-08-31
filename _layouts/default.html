@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+
+        <img class="portrait"
+             src="{{ "/images/avatar.jpg" | relative_url }}"
+             alt="{{ site.author.name }}">
+
+        <p>{{ site.description }}</p>
+
+        <nav class="sidenav">
+          {% assign here = page.url | remove: "index.html" %}
+          <a href="{{ "/" | relative_url }}"
+             {% if here == "/" %}aria-current="page"{% endif %}>Home</a>
+          <a href="{{ "/research/" | relative_url }}"
+             {% if here contains "/research" %}aria-current="page"{% endif %}>Research</a>
+          <a href="{{ "/cv/" | relative_url }}"
+             {% if here contains "/cv" %}aria-current="page"{% endif %}>CV</a>
+          <a href="{{ "/public-goods/" | relative_url }}"
+             {% if here contains "/public-goods" %}aria-current="page"{% endif %}>Public Goods</a>
+        </nav>
+
+        <p><small>{{ site.author.email }}</small></p>
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+      <footer>
+        <p><small>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</small></p>
+      </footer>
+    </div>
+  </body>
+</html>
