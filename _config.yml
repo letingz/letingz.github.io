@@ -11,7 +11,7 @@ theme: jekyll-theme-minimal
 author:
   name: Leting Zhang
   email: letingz@udel.edu
-  googlescholar: "https://scholar.google.com/citations?user=p8LoUmQAAAAJ&hl=en"
+  googlescholar: "https://scholar.google.com/citations?hl=en&user=dUXnG4wAAAAJ"
 
 plugins:
   - jekyll-seo-tag
