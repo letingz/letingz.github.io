@@ -11,12 +11,17 @@ theme: jekyll-theme-minimal
 author:
   name: Leting Zhang
   email: letingz@udel.edu
+  googlescholar: "https://scholar.google.com/citations?user=p8LoUmQAAAAJ&hl=en"
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 exclude:
+  - .jekyll-cache/
+  - .sass-cache/
+  - node_modules/
   - Gemfile
   - Gemfile.lock
   - README.md

@@ -6,13 +6,15 @@ permalink: /research/
 
 ## Research
 
-Longer write-ups of the projects I am working on.
+Longer write-ups of selected projects.
 
 <div class="project" markdown="1">
 
-### Does Sharing Make My Data More Insecure? Health Information Exchange and Data Breaches
+### Does Sharing Make My Data More Insecure? An Empirical Study on Health Information Exchange and Data Breaches
 
 <div class="figure"><img src="/images/trendOfBreachAndHIE1.png" alt="Trend of data breaches and health information exchange participation"></div>
+
+With Sunil Wattal and Min-Seok Pang.
 
 This paper examines the information security implications of participating in
 inter-organizational systems in the context of the healthcare industry. Public
@@ -38,6 +40,8 @@ no significant impact on breaches caused by outsiders or on physical breaches.
 
 <div class="figure"><img src="/images/BBP.PNG" alt="Bug bounty program model"></div>
 
+With Emre Demirezen and Subodha Kumar.
+
 To mitigate the threats from malicious exploitation of vulnerabilities, an
 increasing number of organizations across different industries have started
 incorporating bug bounty programs into their vulnerability management cycles. A bug
@@ -59,6 +63,8 @@ among those researchers, and their number.
 ### Does Access to Information Technology Resources Reduce Rise in Regional Unemployment Amidst Global Disasters? Insights from COVID-19 in the United States
 
 <div class="figure"><img src="/images/itaccess_syn.png" alt="IT access and regional unemployment"></div>
+
+With Taha Havakhor and Rajiv Sabherwal.
 
 One major change in working conditions after the pandemic is the increased
 prevalence of transformations geared towards facilitating working from home. Firms

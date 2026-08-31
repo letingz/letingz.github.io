@@ -22,9 +22,9 @@ effects of information technology on labor markets.
 
 ## Current Work
 
-I have three projects in progress: on health information exchange and data breaches,
-on bug bounty program design, and on access to IT resources and regional
-unemployment. [Read about them here.](/research/)
+Three of my projects: on health information exchange and data breaches, on bug
+bounty program design, and on access to IT resources and regional unemployment.
+[Read about them here.](/research/)
 
 ## Contact
 

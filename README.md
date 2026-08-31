@@ -29,4 +29,4 @@ Then open http://localhost:4000.
 
 - Spec: `docs/superpowers/specs/2026-08-30-minimal-cream-rebuild-design.md`
 - Plan: `docs/superpowers/plans/2026-08-30-minimal-cream-rebuild.md`
-- The pre-rebuild site is preserved at the `academicpages-final` tag.
+- The pre-rebuild site is preserved at the `academicpages-final` tag (local until pushed).
