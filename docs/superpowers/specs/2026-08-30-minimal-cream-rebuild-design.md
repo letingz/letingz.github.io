@@ -35,7 +35,7 @@ Each of these was chosen against alternatives that were mocked up and rejected.
 | Ground colour | `#faf8f5` (from paulgp.com) | Minimal's stock `#ffffff` — compared side by side via a toggle in the mockup. |
 | Sidebar | Boxed, `#f5f2ed` / 8px radius / 1.5rem padding (from paulgp.com) | Minimal's unboxed sidebar; and Minimal's `.downloads` button strip, which nested a box inside a box. |
 | Typography | Minimal's own — Noto Sans 14px/1.5 | paulgp.com's Spectral + DM Sans — would have made the site a copy rather than a relative. |
-| Pages | Home, Papers, CV, Public Goods | A separate Research page — its content moves under Papers (see Open question 1). |
+| Pages | Home, Research, Papers, CV, Public Goods | Folding the research narratives into the Papers page — rejected 2026-08-30; the deep dives get their own page. |
 
 **Approved mockup:** https://claude.ai/code/artifact/be74b4b6-1bd9-4fc7-87a4-22e6345d14ac
 
@@ -70,11 +70,11 @@ Gemfile                      github-pages gem; drop hawkins, jekyll-archives
 _layouts/default.html        override: boxed sidebar, portrait, nav, email
 assets/css/style.scss        @import the theme, then the cream patch
 index.md                     Home
-papers.md                    Papers
+research.md                  Research — the three narrative deep dives
+papers.md                    Papers — the list
 cv.md                        CV
 public-goods.md              Public Goods
 404.md
-_papers/                     three per-project narrative pages (Open question 1)
 files/cv_letingz.pdf
 images/avatar.jpg
 images/trendOfBreachAndHIE1.png
@@ -108,7 +108,7 @@ Sidebar nav links: 13px, uppercase, `0.1em` tracking, 9px vertical padding.
 Minimal's `_layouts/default.html` renders a sidebar of `site.title`,
 `site.description`, and GitHub download buttons. The override replaces the
 buttons with site navigation and adds the portrait. Nav links are hard-coded —
-four entries that change rarely. If they start changing, move them to
+five entries that change rarely. If they start changing, move them to
 `_data/nav.yml` and loop; not worth the indirection now.
 
 ## Content plan
@@ -118,9 +118,9 @@ four entries that change rarely. If they start changing, move them to
 | Source | Destination |
 |---|---|
 | `_pages/about.md` — bio, four research topics | `index.md` |
-| `_research/p1HIEandDataBreach.md` | `_papers/hie-data-breaches.md` |
-| `_research/p2BugBountyProgram.md` | `_papers/bug-bounty.md` |
-| `_research/p3TheFutureOfWorkInUS.md` | `_papers/it-access-unemployment.md` |
+| `_research/p1HIEandDataBreach.md` | `research.md` (section) |
+| `_research/p2BugBountyProgram.md` | `research.md` (section) |
+| `_research/p3TheFutureOfWorkInUS.md` | `research.md` (section) |
 | `files/cv_letingz.pdf` | unchanged path |
 | `images/avatar.jpg` | unchanged path |
 | Three project figures | unchanged paths |
@@ -138,11 +138,16 @@ All 365 remaining tracked files: `_publications/` (5), `_posts/` (25),
 `assets/` + `images/` (73 combined, minus the four keepers).
 
 The personal photographs (`misc_*.jpg`, `logo-piano.jpg`, `Gould.jpg`) are kept
-on disk but unreferenced, pending a decision about a personal page.
+on disk but unreferenced. Decided 2026-08-30: retain the files, build no page
+for them now.
 
 ### Written from scratch
 
-- **Papers** — currently someone else's list. Scaffold plus one worked entry.
+- **Papers** — currently someone else's list. Ships listing the three working
+  papers only. **No placeholder text, no TODO markers, and no empty headings
+  reach the published site**; a section with no content is omitted entirely, so
+  the page reads as finished rather than unfinished. The published-work section
+  appears when its content exists.
 - **Public Goods** — currently `# Resource 1` / `# Resource 2`.
 - **CV** — the PDF is four years old.
 
@@ -182,19 +187,21 @@ Before merge:
   `Department of Testing`, or `blog-post-1`.
 - Rendered ground is `#faf8f5` and the sidebar panel `#f5f2ed`.
 
-## Open questions for review
+## Resolved 2026-08-30
 
-1. **Where do the three research narratives live?** This spec routes them to
-   per-project pages under `_papers/`, linked from paper titles on the Papers
-   page. The approved mockup shows only four nav items and no Research page, so
-   these pages would be reachable only through those links. The alternative is
-   folding each narrative inline into the Papers page and having no sub-pages.
-2. **Who writes the publication list?** The decision on record is that the
-   implementation scaffolds the page with one worked entry and invents nothing.
-   Completing it requires a current CV or a dictated list. Until then the site
-   ships with a visibly incomplete Papers page — acceptable, since the current
-   one is incorrect rather than incomplete.
-3. **Portrait position.** Currently under the name. paulgp.com places it at the
-   foot of the sidebar.
-4. **Personal page?** The theatre and music photographs suggest the
-   `_miscellaneous/` page was once intended to be real. Delete or rebuild.
+1. **Research narratives** — get their own `research.md` page, in the nav. The
+   split agreed earlier holds: Research carries the deep dives, Papers carries
+   the list.
+2. **Publication list** — implementation invents nothing. The Papers page ships
+   with the three working papers; sections without content are omitted rather
+   than stubbed, so the published page never displays placeholder text. The
+   published-work list is added when the owner supplies it.
+3. **Portrait** — stays under the name in the sidebar.
+4. **Personal photographs** — files retained, no page built.
+
+## Still open
+
+- **Source for the published-work list.** Needs a current CV or a dictated
+  list. Not a blocker: the site ships correct-but-shorter until then.
+- **`.DS_Store` is tracked** and shows as modified. Suggest adding to
+  `.gitignore` and untracking during the rebuild.
