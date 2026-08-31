@@ -35,7 +35,7 @@ Each of these was chosen against alternatives that were mocked up and rejected.
 | Ground colour | `#faf8f5` (from paulgp.com) | Minimal's stock `#ffffff` — compared side by side via a toggle in the mockup. |
 | Sidebar | Boxed, `#f5f2ed` / 8px radius / 1.5rem padding (from paulgp.com) | Minimal's unboxed sidebar; and Minimal's `.downloads` button strip, which nested a box inside a box. |
 | Typography | Minimal's own — Noto Sans 14px/1.5 | paulgp.com's Spectral + DM Sans — would have made the site a copy rather than a relative. |
-| Pages | Home, Research, Papers, CV, Public Goods | Folding the research narratives into the Papers page — rejected 2026-08-30; the deep dives get their own page. |
+| Pages | Home, Research, CV, Public Goods | A separate Papers page — removed 2026-08-30. Research is the single home for research content; a list page alongside it duplicated the same three projects. |
 
 **Approved mockup:** https://claude.ai/code/artifact/be74b4b6-1bd9-4fc7-87a4-22e6345d14ac
 
@@ -70,8 +70,7 @@ Gemfile                      github-pages gem; drop hawkins, jekyll-archives
 _layouts/default.html        override: boxed sidebar, portrait, nav, email
 assets/css/style.scss        @import the theme, then the cream patch
 index.md                     Home
-research.md                  Research — the three narrative deep dives
-papers.md                    Papers — the list
+research.md                  Research — the three projects, in full
 cv.md                        CV
 public-goods.md              Public Goods
 404.md
@@ -108,7 +107,7 @@ Sidebar nav links: 13px, uppercase, `0.1em` tracking, 9px vertical padding.
 Minimal's `_layouts/default.html` renders a sidebar of `site.title`,
 `site.description`, and GitHub download buttons. The override replaces the
 buttons with site navigation and adds the portrait. Nav links are hard-coded —
-five entries that change rarely. If they start changing, move them to
+four entries that change rarely. If they start changing, move them to
 `_data/nav.yml` and loop; not worth the indirection now.
 
 ## Content plan
@@ -143,11 +142,11 @@ for them now.
 
 ### Written from scratch
 
-- **Papers** — currently someone else's list. Ships listing the three working
-  papers only. **No placeholder text, no TODO markers, and no empty headings
-  reach the published site**; a section with no content is omitted entirely, so
-  the page reads as finished rather than unfinished. The published-work section
-  appears when its content exists.
+- **Research** — carries the three project write-ups, which already exist in
+  `_research/` and transfer nearly unchanged. **No placeholder text, no TODO
+  markers, and no empty headings reach the published site**; a section with no
+  content is omitted entirely, so every page reads as finished. A published-work
+  list is added to this page when the owner supplies one.
 - **Public Goods** — currently `# Resource 1` / `# Resource 2`.
 - **CV** — the PDF is four years old.
 
@@ -189,15 +188,18 @@ Before merge:
 
 ## Resolved 2026-08-30
 
-1. **Research narratives** — get their own `research.md` page, in the nav. The
-   split agreed earlier holds: Research carries the deep dives, Papers carries
-   the list.
-2. **Publication list** — implementation invents nothing. The Papers page ships
-   with the three working papers; sections without content are omitted rather
-   than stubbed, so the published page never displays placeholder text. The
-   published-work list is added when the owner supplies it.
-3. **Portrait** — stays under the name in the sidebar.
-4. **Personal photographs** — files retained, no page built.
+1. **Research narratives** — get their own `research.md` page, in the nav.
+   Superseded in part by the decision below: there is no separate Papers page,
+   so Research is the only research page.
+2. **No Papers page.** Research holds everything. The earlier
+   list-page/deep-dive split is dropped — with three projects, a list alongside
+   the narratives repeated the same titles twice. The home page links to
+   Research rather than restating the projects.
+3. **Publication list** — implementation invents nothing. Sections without
+   content are omitted rather than stubbed, so the published site never displays
+   placeholder text. A published-work list joins Research when supplied.
+4. **Portrait** — stays under the name in the sidebar.
+5. **Personal photographs** — files retained, no page built.
 
 ## Still open
 
