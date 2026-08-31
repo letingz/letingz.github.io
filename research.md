@@ -12,14 +12,23 @@ technology on labor markets.
 
 ### Publications
 
-Leting Zhang, Sunil Wattal, and Min-Seok Pang. "Does Sharing Make My Data More
-Insecure? An Empirical Study on Health Information Exchange and Data Breaches."
-*Forthcoming, MIS Quarterly.*
+Leting Zhang, Sunil Wattal, and Min-Seok Pang. (2024). "Does Sharing Make My Data
+More Insecure? An Empirical Study on Health Information Exchange and Data Breaches."
+*MIS Quarterly*, 48(3), 873–898.
 
-Leting Zhang, Emre Demirezen, and Subodha Kumar. "How to Make My Bug Bounty
-Cost-effective? A Game-theoretical Model." *Accepted, Information Systems Research.*
+Leting Zhang, Emre M. Demirezen, and Subodha Kumar. (2024). "How to Make My Bug
+Bounty Cost-Effective? A Game-Theoretical Model." *Information Systems Research*,
+36(2), 1031–1053.
 
 ### Working Papers
+
+Santhosh Srinivas, Leting Zhang, and Huigang Liang. "Vendor-Originated
+Vulnerabilities and Data Breaches: A Large-Scale Empirical Study of Threshold
+Effects and Mitigation." *Major revision at Information Systems Research.*
+
+Xi Wu, Leting Zhang, John D'Arcy, and Panos Constantinides. "How Data Breaches
+Shape Digital Product Development: Evidence from Mobile Apps." *Major revision at
+Information Systems Research.*
 
 Leting Zhang, Taha Havakhor, and Sunil Wattal. "Peer Data Breaches and Cyber Risk
 Disclosure Quality: Evidence from US Public Firms." *Under review.*
