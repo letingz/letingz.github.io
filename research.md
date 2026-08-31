@@ -6,11 +6,7 @@ permalink: /research/
 
 ## Research
 
-I study how organizations manage the risks and returns of information technology —
-information security, health information systems, and the effects of information
-technology on labor markets.
-
-[View my publications on Google Scholar](https://scholar.google.com/citations?hl=en&user=dUXnG4wAAAAJ&inst=3607309548842157151)
+My research  examines the economic implications of information technologies for decision-making and risks, with particular interests in IT and data security, healthcare, and artificial intelligence.
 
 ### Publications
 
